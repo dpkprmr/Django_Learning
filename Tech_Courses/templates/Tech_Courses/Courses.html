@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<h1>
+<ol>
+    {% for x in ac %}
+    <li><a href="/Tech_Courses/{{course.id}}/">{{x.coursename}}</a></li>
+    {% endfor %}
+</ol>
+</h1>
+</body>
+</html>
